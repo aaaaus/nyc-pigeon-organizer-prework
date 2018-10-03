@@ -12,6 +12,8 @@ def nyc_pigeon_organizer(data)
   data[:color].each do | color, name_array |
       name_array.each do | name |
         pigeon_list.keys.each do | key |
+          if name == key
+            pigeon_list[name][:color]
   
   pigeon_list.each do | key_name, blank_value |
     
