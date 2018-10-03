@@ -12,8 +12,7 @@ def nyc_pigeon_organizer(data)
   data.each do | key1, value1 |
     value1.each do | key2, value2array |
       value2array.each do | name |
-        if name == pigeon_list[name]
-        pigeon_list.keys.each do 
+        pigeon_list.keys.each do |key|
   
   pigeon_list.each do | key_name, blank_value |
     
