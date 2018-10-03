@@ -9,10 +9,9 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-  data[:color].each do | key1, value1 |
-    value1.each do | key2, value2array |
-      value2array.each do | name |
-        pigeon_list.keys.each do |key|
+  data[:color].each do | color, name_array |
+      name_array.each do | name |
+        pigeon_list.keys.each do | key |
   
   pigeon_list.each do | key_name, blank_value |
     
