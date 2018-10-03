@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
       name_array.each do | name |
         pigeon_list.keys.each do | key |
           if name == key
-            pigeon_list[name][:color]
+            pigeon_list[name][:color] = color
   
   pigeon_list.each do | key_name, blank_value |
     
